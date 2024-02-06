@@ -16,7 +16,9 @@ class MainApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('App bar without hamburger button'),
         ),
-        drawer: (),
+        drawer: Drawer(
+          child: ,
+        ),
       ),
     );
   }
