@@ -7,13 +7,16 @@ void main() {
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
+  static const appTitle = 'Drawer Equipo 1';
+
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
+        appBar: AppBar(
+          title: const Text('App bar without hamburger button'),
         ),
+        drawer: (),
       ),
     );
   }
